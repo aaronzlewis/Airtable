@@ -1,0 +1,219 @@
+h1, h2, p, a {
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+section {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 120px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #333;
+}
+
+h2 {
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+h2, p, a {
+  font-size: 18px;
+}
+
+h2, p {
+  color: #333;
+  line-height: 130%;
+}
+
+img {
+  width: 80px;
+  height: auto;
+}
+
+img#azl {
+  padding-right: 3px;
+}
+
+img#knights {
+  display: none;
+}
+
+svg {
+  display: none;
+}
+
+a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  margin-top: 40px;
+  background-color: #FF0050;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.block {
+  width: 56px;
+  border-radius: 4px;
+  position: absolute;
+}
+
+#block-2 {
+  width: 80px;
+  height: 56px;
+  left: 119px;
+  top: 194px;
+  background-color: #7BD0F2;
+}
+
+#block-3, #block-4 {
+  height: 56px;
+}
+
+#block-3 {
+  left: 205px;
+  top: 280px;
+  background-color: #FFE795;
+}
+
+#block-4 {
+  left: 205px;
+  top: 218px;
+  background-color: #FB87A4;
+}
+
+#block-5 {
+  background-color: #FDCDFE;
+  height: 124px;
+  top: 212px;
+  left: 267px;
+}
+
+#block-6 {
+  background-color: #7BD0F2;
+  width: 80px;
+  height: 56px;
+  top: 212px;
+  left: 329px;
+}
+
+#block-7 {
+  background-color: #FFE795;
+  width: 80px;
+  height: 56px;
+  top: 150px;
+  left: 329px;
+}
+
+@media screen and (min-width: 500px) {
+
+  h1, h2, p {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 56px;
+    margin-top: 80px;
+  }
+
+  .blocks {
+    position: relative;
+    top: -256px;
+    left: -32px;
+  }
+  .container {
+    width: 100%;
+  }
+  section {
+    width: 380px;
+    margin: 0 auto;
+  }
+
+  a {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 700px)  {
+
+  .block {
+    display: none;
+  }
+
+  svg {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    z-index: -2;
+  }
+
+  h2, p {
+    width: 480px;
+  }
+
+  h1 {
+    margin-top: 156px;
+    font-size: 72px;
+    margin-bottom: 32px;
+  }
+
+  section {
+    width: auto;
+    margin-left: 40px;
+  }
+
+  a {
+    width: 180px;
+  }
+
+  img#knights {
+    display: block;
+    position: absolute;
+    width: 440px;
+    top: 80px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  img#jho, img#azl {
+    display: none;
+  }
+
+  #block-6, #block-7 {
+    right: 0;
+    left: inherit;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  section {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  img#knights {
+    right: 0px;
+    top: 80px;
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  img#knights {
+    width: 600px;
+    right: 140px;
+  }
+}
