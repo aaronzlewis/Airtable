@@ -197,6 +197,11 @@ a {
   }
 }
 
+.airtable-embed {
+  margin-top: 40px;
+  width: 500px;
+}
+
 @media screen and (min-width: 800px) {
   section {
     margin-left: 120px;
